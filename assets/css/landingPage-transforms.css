@@ -1,0 +1,10 @@
+.li-scaled:hover {
+  transform: scale(2, 2);
+
+  transition: transform 12s;
+}
+
+.li-font-grow {
+  font-size: 50px;
+  transition: font-size 12s;
+}
