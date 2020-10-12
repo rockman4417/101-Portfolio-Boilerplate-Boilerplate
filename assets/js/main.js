@@ -107,3 +107,8 @@
 		}
 	});
 }());
+
+const fontGrow = (thisID) => {
+	thisID.classList.add('li-font-grow')
+	console.log("clicked")
+}
