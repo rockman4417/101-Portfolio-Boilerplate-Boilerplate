@@ -79,6 +79,7 @@
 
 // Adds event listeners to the Image Galleries
 (function () {
+
   var portfolioSection = document.querySelector(".portfolio-pieces"),
     index = 0;
 
@@ -124,3 +125,4 @@
 const fontGrow = (thisID) => {
   thisID.classList.add("li-font-grow");
 };
+
